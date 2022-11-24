@@ -16,7 +16,7 @@ export default class Interest extends React.Component{
     render() {
         return(
             <div>
-                <h1>Interest</h1>
+                <h1>Interests</h1>
                 <p>Studying Foreign Language: </p>
                 <p>{this.state.language}</p>
                 <p>{this.state.hobby1}</p>
