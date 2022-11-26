@@ -7,21 +7,23 @@ import Experiences from './pages/Experiences'
 import Skills from './pages/Skills'
 import Interest from './pages/Interests'
 import Awards from './pages/Awards'
+import Ccourses from './pages/Ccourses'
 
 function App() {
 
   return (
     <div className="container">
       <NavBar/>
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About/>} />
           <Route path="/experiences" element={< Experiences/>}></Route>
           <Route path="/skills" element={<Skills/>}></Route>
           <Route path="/interests" element={<Interest/>}></Route>
           <Route path="/awards" element={<Awards />}></Route>
+          <Route path="/certificates" element={<Ccourses />}></Route>
          
-        </Routes>
+        </Routes> */}
     </div>
   )
 }
