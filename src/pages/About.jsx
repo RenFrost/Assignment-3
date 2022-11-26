@@ -1,5 +1,7 @@
 import React from "react"
 import Button from '@mui/material/Button'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 export default class About extends React.Component {
@@ -31,12 +33,12 @@ export default class About extends React.Component {
                 <p>{this.state.academic3}</p>
                 <p>{this.state.academic4}</p>
                 <h2>Github and Linkedin Account : </h2>
-                <Button variant="contained" onClick={() => window.open("https://github.com/RenFrost")}>
+                <GitHubIcon style={{marginRight: 20}} fontSize="large" variant="contained" onClick={() => window.open("https://github.com/RenFrost")}>
                     Github
-                </Button>
-                <Button variant="contained" onClick={() => window.open("https://www.linkedin.com/in/muhammad-didi-nugroho-277ab219b/")}>
+                </GitHubIcon>
+                <LinkedInIcon fontSize="large" variant="contained" onClick={() => window.open("https://www.linkedin.com/in/muhammad-didi-nugroho-277ab219b/")}>
                     LinkedIn
-                </Button>
+                </LinkedInIcon>
                 
             </div>
         )
