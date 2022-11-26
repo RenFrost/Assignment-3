@@ -17,7 +17,7 @@ export const mainNavbarItems = [
     {
         id: 3,
         label: 'Certificates & Courses',
-        route: '/Ccourses',
+        route: '/certificates',
     },
     {
         id: 4,

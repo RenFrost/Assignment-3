@@ -16,7 +16,7 @@ export default class Ccourses extends Component {
 
     render() {
         return(
-            <div>
+            <div style={{marginLeft: "300px"}}>
                 <h1>Certificate & Courses</h1>
                 <p>{this.state.gundarcourses1}</p>
                 <p>{this.state.gundarcourses2}</p>

@@ -14,7 +14,7 @@ export default class Interest extends React.Component{
 
     render() {
         return(
-            <div>
+            <div style={{marginLeft: "300px"}}>
                 <h1>Interests</h1>
                 <p>{this.state.hobby1}</p>
                 <p>{this.state.hobby2}</p>

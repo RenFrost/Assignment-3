@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button'
 
 
@@ -9,7 +8,6 @@ export default class About extends React.Component {
         super(props)
 
         this.state = {
-            name: "Muhammad Didi Nugroho",
             birthdate: "21 November 1996",
             birthplace: "Jakarta",
             academic1: "SD Islam Al-Fajar(2003-2009)",
@@ -23,9 +21,8 @@ export default class About extends React.Component {
 
     render() {
         return(
-            <div>
+            <div style={{marginLeft: "300px"}}>
                 <h1>About Me</h1>
-                <h2>{this.state.name}</h2>
                 <p>Birthdate : {this.state.birthdate}</p>
                 <p>Birthplace : {this.state.birthplace}</p>
                 <h2>Academic Background : </h2>

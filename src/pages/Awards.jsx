@@ -11,7 +11,7 @@ export default class Awards extends React.Component {
 
     render() {
         return(
-            <div>
+            <div style={{marginLeft: "300px"}}>
                 <h1>Awards</h1>
                 <p>{this.state.texts}</p>
             </div>

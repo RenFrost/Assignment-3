@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Homepage() {
     return(
-        <div >
+        <div style={{marginLeft: "300px"}}>
             <h1>Muhammad Didi Nugroho</h1>
             <p>
                 Hello, I am a programmer that is very enthuastic about programming especially

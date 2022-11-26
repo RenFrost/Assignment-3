@@ -14,7 +14,7 @@ export default class Experiences extends React.Component {
 
     render() {
         return(
-            <div>
+            <div style={{marginLeft: "300px"}}>
                 <h1>Work Experiences</h1>
                 <h2 style={{fontSize: "20px"}}>{this.state.experiences}</h2>
                 <p style={{fontSize: "16px", marginLeft:"3%"}}>{this.state.position}</p>

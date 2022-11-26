@@ -17,7 +17,7 @@ export default class Skills extends React.Component {
 
     render() {
         return(
-            <div>
+            <div style={{marginLeft: "300px"}}>
                 <h1>Skills</h1>
                 <h2>Programming Language : </h2>
                 <p>{this.state.proglanguage1}</p>
