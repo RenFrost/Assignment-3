@@ -29,9 +29,9 @@ const NavBar = () => {
           <Avatar 
           alt="diid nugroho"
           src={image}
-          sx ={{width: 120, height: 120 }}/>
+          sx ={{width: 160, height: 170, marginBottom: 5 }}/>
         </center>
-        {mainNavbarItems.map((item, index) => (
+        {mainNavbarItems.map((item) => (
           <ListItem 
           button 
           key={item.id}
