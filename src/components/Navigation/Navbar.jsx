@@ -9,6 +9,8 @@ import ListItemText from '@mui/material/ListItemText'
 import { mainNavbarItems } from '../consts/navbarItems'
 import { navbarStyles } from './styles'
 import { useNavigate } from 'react-router-dom'
+import { Avatar } from '@mui/material'
+import image from "/profpic.jpg"
 
 const NavBar = () => {
   const navigate = useNavigate()
@@ -23,6 +25,12 @@ const NavBar = () => {
       <Toolbar />
       <Divider />
       <List>
+        <center>
+          <Avatar 
+          alt="diid nugroho"
+          src={image}
+          sx ={{width: 120, height: 120 }}/>
+        </center>
         {mainNavbarItems.map((item, index) => (
           <ListItem 
           button 
