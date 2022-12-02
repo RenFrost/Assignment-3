@@ -36,9 +36,9 @@ export default class About extends React.Component {
                 <p>{this.state.academic3}</p>
                 <p>{this.state.academic4}</p>
                 <h2>How to Contact Me :</h2>
-                <p>{this.state.phone}</p>
-                <p>{this.state.email}</p>
-                <p>{this.state.adress}</p>
+                <p>Phone Number : {this.state.phone}</p>
+                <p>Email : {this.state.email}</p>
+                <p>Adress : {this.state.adress}</p>
                 <h2>Github and Linkedin Account : </h2>
                 <GitHubIcon style={{marginRight: 20}} fontSize="large" variant="contained" onClick={() => window.open("https://github.com/RenFrost")}>
                     Github
