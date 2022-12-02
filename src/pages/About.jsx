@@ -35,6 +35,7 @@ export default class About extends React.Component {
                 <p>{this.state.academic2}</p>
                 <p>{this.state.academic3}</p>
                 <p>{this.state.academic4}</p>
+                <p style={{fontSize:"15px", marginTop:"-10px"}}>{this.state.prodgpa}</p>
                 <h2>How to Contact Me :</h2>
                 <p>Phone Number : {this.state.phone}</p>
                 <p>Email : {this.state.email}</p>
