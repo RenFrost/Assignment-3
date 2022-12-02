@@ -16,7 +16,10 @@ export default class About extends React.Component {
             academic2: "SMP Islam Al-Fajar(2009-2012)",
             academic3: "SMAN 11 Bekasi(2009-2012)",
             academic4: "Gunadarma University(2012-2015)",
-            prodgpa: "Teknik Informatika, Kumulatif GPA : 3.04"
+            prodgpa: "Teknik Informatika, Kumulatif GPA : 3.04",
+            phone:"0813-1758-9639",
+            email:"diidnugroho@gmail.com",
+            adress:"Villa Nusa Indah 2 Blok U13 No.23, Bojong Kulur, Gunung Putri, Bogor, 16969"
         }
         
     }
@@ -32,6 +35,10 @@ export default class About extends React.Component {
                 <p>{this.state.academic2}</p>
                 <p>{this.state.academic3}</p>
                 <p>{this.state.academic4}</p>
+                <h2>How to Contact Me :</h2>
+                <p>{this.state.phone}</p>
+                <p>{this.state.email}</p>
+                <p>{this.state.adress}</p>
                 <h2>Github and Linkedin Account : </h2>
                 <GitHubIcon style={{marginRight: 20}} fontSize="large" variant="contained" onClick={() => window.open("https://github.com/RenFrost")}>
                     Github
